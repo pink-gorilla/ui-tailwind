@@ -3,7 +3,8 @@
 **End Users** this project is not for you.
 
 
-A wrapper for react-player to play videos.
+Tailwind css themes, wrapped to work with css-loader
+
 
 ```
 cd ui-tailwind
