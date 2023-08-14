@@ -1,0 +1,10 @@
+{:name "ui-tailwind"
+ ;build
+ :lazy-sci false
+ ; theme
+ :theme {:available  {:tailwind {"light" ["tailwindcss/dist/tailwind.min.css"]
+                                 "dark"  ["tailwindcss/dist/tailwind-dark.min.css"]
+                                 }}
+         :current {:tailwind "light"}}
+
+ }
