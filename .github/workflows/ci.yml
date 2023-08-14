@@ -32,7 +32,7 @@ jobs:
         git config --global user.email "ci@pinkgorilla.org"
         git config --global user.name "CI/CD"
         cd ui-tailwind
-	clojure -X:goldly:npm-install
-	./copy_res.sh
+        clojure -X:goldly:npm-install
+        ./copy_res.sh
         clojure -T:build jar
         clojure -T:build deploy
